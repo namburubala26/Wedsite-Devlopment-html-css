@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:navajowhite;
+}
+.main img{
+    width: 1366px;
+    height: 631.5px;
+}
+.maintext{
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin: 70px;
+    left: 30%;
+}
+.forms{
+    position: absolute;
+    left:45%;
+    margin-top: 210px;
+}
+.forms input {
+    flex: 1;;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.forms button{
+    background-color: black;
+    border: none;
+    padding: 15px 32px;
+    
+}

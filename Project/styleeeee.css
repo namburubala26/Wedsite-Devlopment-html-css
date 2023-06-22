@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:navajowhite;
+}
+.offer_header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: inherit;
+    margin-top: 10px;
+    text-decoration: inherit;
+
+}
+.offer_child a{
+    margin-right: 20px;
+    color: rgba(0,0,0,0.8);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+.offer_child a:hover {
+    text-decoration: underline;
+}
+.offer_child {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.main-Body {
+    flex: 1;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+}
+.main-Body img {
+    object-fit: contain;
+    height: 900px;
+}
+.centered1 {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d0d0d;
+    background: rgba(29, 13, 13, 0.6);
+    overflow: hidden;
+    padding-top: 20px;
+    width: 300px;
+    height: 200px;
+    z-index: 98;
+    
+    /* /* display: none; */
+}
+.details label{
+    color: aliceblue;
+}
+.adults{
+    color: aliceblue;
+    position: absolute;
+    right: 62%;
+    bottom: 29%;
+}
+.childrens{
+    color: aliceblue;
+    position: absolute;
+    right: 25%;
+    bottom: 29%;
+}
+.button{
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left:15%
+    
+}
+.rooms{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.room_middle{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.room p{
+    text-align: center;
+}
+.offer{
+    margin-top: 20px;
+}
+.hotel img{
+    height: 200px;
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.hotel h2{
+    position: absolute;
+    top: 187%;
+    left: 30%;
+}
+.hotel p{
+    position: absolute;
+    top: 197%;
+    left: 30%;
+}
+.hotel button{
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 210%;
+    left: 35%;
+
+}
+.breakfast img{
+    height: 200px;
+    margin-top: 20px;
+    margin-left:100px ;
+    position: absolute;
+    top: 185%;
+    left: 45%;
+}
+.breakfast h2{
+    position: absolute;
+    top: 187.5%;
+    left: 75%;
+}
+.breakfast p{
+    position: absolute;
+    top: 197%;
+    left: 75%;
+}
+.breakfast button{
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 210%;
+    left: 80%;
+
+}
+.col2{
+    margin-top: 50px;
+}
+.art img{
+    height: 200px;
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.art h2{
+    position: absolute;
+    top: 230%;
+    left: 30%;
+}
+.art p{
+    position: absolute;
+    top: 240%;
+    left: 30%;
+}
+.art button{
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 255%;
+    left: 35%;
+
+}
+.romantic img{
+    height: 200px;
+    margin-top: 20px;
+    margin-left:100px ;
+    position: absolute;
+    top: 227%;
+    left: 45%;
+}
+.romantic h2{
+    position: absolute;
+    top: 229.3%;
+    left: 75%;
+}
+.romantic p{
+    position: absolute;
+    top: 239%;
+    left: 75%;
+}
+.romantic button{
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 255%;
+    left: 80%;
+
+}
+.col3{
+    margin-top: 50px;
+}
+.early img{
+    height: 200px;
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.early h2{
+    position: absolute;
+    top: 273%;
+    left: 30%;
+}
+.early p{
+    position: absolute;
+    top: 285%;
+    left: 30%;
+}
+.early button{
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 295%;
+    left: 35%;
+
+}
+.deals{
+    margin-top: 50px;
+    text-align: center;
+}
+.deals{
+    margin:30px;
+}
+.deals p{
+    margin-top: -30px;
+}
+.footer {
+    align-items: center;
+    flex: 1;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+}

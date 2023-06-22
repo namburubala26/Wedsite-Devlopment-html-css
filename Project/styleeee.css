@@ -1,0 +1,202 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:navajowhite;
+}
+.service_header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: inherit;
+    margin-top: 10px;
+    text-decoration: inherit;
+
+}
+.service_child a{
+    margin-right: 20px;
+    color: rgba(0,0,0,0.8);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+.service_child a:hover {
+    text-decoration: underline;
+}
+.service_child {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.main-Body {
+    flex: 1;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+}
+.main-Body img {
+    object-fit: contain;
+    height: 900px;
+}
+.centered1 {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d0d0d;
+    background: rgba(29, 13, 13, 0.6);
+    overflow: hidden;
+    padding-top: 20px;
+    width: 300px;
+    height: 200px;
+    z-index: 98;
+    
+    /* /* display: none; */
+}
+.details label{
+    color: aliceblue;
+}
+.adults{
+    color: aliceblue;
+    position: absolute;
+    right: 62%;
+    bottom: 29%;
+}
+.childrens{
+    color: aliceblue;
+    position: absolute;
+    right: 25%;
+    bottom: 29%;
+}
+.button{
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left:15%
+    
+}
+.rooms{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.room_middle{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.room p{
+    text-align: center;
+}
+.roome{
+    margin-top: 20px;
+}
+.superior img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.superior h4{
+    position: absolute;
+    top: 184.5%;
+    left: 7.5%;
+    
+}
+.superior p{
+    position: absolute;
+    left: 13%;
+}
+.business img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left:100px ;
+    position: absolute;
+    left: 50%;
+    top: 184%;
+}
+.business h4{
+    position: absolute;
+    top: 184%;
+    left: 57.5%;    
+}
+.business p{
+    position: absolute;
+    left: 60%;
+    top: 243%;
+}
+.col2{
+    margin-top: 50px;
+}
+.deluxe img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.deluxe h4{
+    position: absolute;
+    top: 251%;
+    left: 7.5%;   
+}
+.deluxe p{
+    position: absolute;
+    left: 8%;
+}
+.junior img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left:100px ;
+    position: absolute;
+    left: 50%;
+    top: 251%;
+}
+.junior h4{
+    position: absolute;
+    top: 251%;
+    left: 57.5%;    
+}
+.junior p{
+    position: absolute;
+    left: 60%;
+}
+.col3{
+    margin-top: 50px;
+}
+.one img{
+    height: 350px;
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.one h4{
+    position: absolute;
+    top: 318%;
+    left: 7.5%;   
+}
+.one p{
+    position: absolute;
+    left: 7%;
+}
+.footer {
+    align-items: center;
+    flex: 1;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    
+}
+.footer__hotel{
+    margin-top: 30px;
+}
